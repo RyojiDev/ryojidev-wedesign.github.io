@@ -63,5 +63,65 @@ var our_services = [{
 
 ];
 
+// service-previous
 
-// Data Footer
+// service-next
+
+// service-text
+
+// service-title
+
+var servico_atual = 0;
+
+var service_title = document.getElementById("service-title");
+
+var service_next = document.getElementById("service-next");
+
+var service_text = document.getElementById("service-text");
+
+var service_previous = document.getElementById("service-previous");
+
+service_next.onclick = function() {
+    if (servico_atual == our_services.length - 1) {
+
+        var servico_seguinte = 0;
+    } else {
+
+        var servico_seguinte = servico_atual + 1;
+
+    }
+
+    service_title.innerHTML = our_services[servico_seguinte].title;
+    service_text.innerHTML = our_services[servico_seguinte].text;
+
+    servico_atual = servico_seguinte;
+}
+
+service_previous.onclick = function() {
+
+        if (servico_atual == 0) {
+
+            var servico_anterior = our_services.length - 1;
+        } else {
+
+            var servico_anterior = servico_atual - 1;
+
+        }
+
+        service_title.innerHTML = our_services[servico_anterior].title;
+        service_text.innerHTML = our_services[servico_anterior].text;
+
+        servico_atual = servico_anterior;
+    }
+    // Data Footer
+
+var ano_atual = new Date;
+ano_atual = ano_atual.getFullYear();
+
+document.getElementById("current_year").innerHTML = ano_atual;
+
+
+//Map
+
+
+// API Key - AIzaSyCLZdYPKIpLVxvldDwHdRNBzraBnYp8GZ8
