@@ -34,7 +34,12 @@ for (var i = 0; i < about_tags.length; i++) {
         }
         this.style['background-color'] = selected_color;
         this.style['font-weight'] = "bold";
+        var selecionado = this.innerHTML;
+
+        document.getElementById("box-text").innerHTML = aboutUs[selecionado];
     }
+
+
 }
 console.log(about_tags)
 
