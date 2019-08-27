@@ -15,8 +15,8 @@ document.getElementById("sliding-header-menu-close-button").onclick = function()
 
 var aboutUs = {
     "Missão": "Fazer com que cada cliente seja reconhecido como autoridade em seu segmento de atuação. Agregar valor ao negócio, potencializar o crescimento das operações e promover e estreitar o relacionamento do cliente com o seu público alvo, por meio da geração de conteúdo de relevância.",
-    "Visão": "Ser reconhecida pelos clientes e pelo mercado como uma empresa parceira, inovadora e criativa, que oferece sempre os melhores produtos e soluções em Comunicação Empresarial Integrada.",
-    "Valores": "<ul><li>Comprometimento</li><li>Inovação</li><li>Ética profissional</li><li>Superação dos resultados</li><li>Melhoria contínua</li></ul>"
+    "Preço": "Vendemos Restaurante de Cúlinaria Japonesa, atuante no mercado Completo, valor 50.000,00 , Interassados Favor Contatar Utilizando as Informações abaixo, na seção Contato",
+    "Incluso na venda": "<ul><li>CNPJ atuante no mercado</li><li>Ar-Condicionado</li><li>Cozinha</li><li>Utensilios</li><li>Restaurante de comida japonesa Completo</li></ul>"
 };
 
 var unselected_color = "#646872";
