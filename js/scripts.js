@@ -1,7 +1,7 @@
 // Menu Mobile
 
 document.getElementById("hamburguer-icon").onclick = function() {
-    //alert("você clicou");
+
     document.getElementById("sliding-header-menu-outer").style.right = "0";
 
 };
